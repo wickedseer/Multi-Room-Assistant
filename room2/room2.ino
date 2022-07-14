@@ -12,8 +12,8 @@ SSD1306  display(0x3c, 21, 22);
 QRcode qrcode (&display);
 
 // Replace with your network credentials
-const char* ssid = "Vridhi Redmi Note 10";
-const char* password = "P@ssw0rd";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 String ip;
 
